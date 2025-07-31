@@ -1,35 +1,26 @@
-'use client';
+
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: 'Trang Phim Sex Top 1 | Tổng Hợp Phim Sex Hay Nhất – Tên miền chính thức quoclamtu',
+  description: 'Mang cả thế giới sex về giướng của bạn với tổng hợp phim sex chất lượng cao, cập nhật phim mới mỗi ngày. Không Che, Vietsub, Âu Mỹ, Hàn Quốc, Nhật Bản đầy đủ – xem nhanh, không quảng cáo tại quoclamtu .',
+};
+
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[url('/bg-home.webp')] flex items-center justify-center p-4">
-      <style jsx>{`
-        @keyframes colorCycle {
-          0% {
-            background-color: #22c55e; /* Xanh lá */
-          }
-          50% {
-            background-color: #ef4444; /* Đỏ */
-          }
-          100% {
-            background-color: #3b82f6; /* Xanh dương */
-          }
-        }
-
-        .color-animate {
-          animation: colorCycle 3s ease-in-out infinite;
-        }
-      `}</style>
+      
       <div className="text-center text-white max-w-2xl space-y-6">
         <h1 className="text-lg md:text-4xl font-bold flex text-amber-500 gap-2"><img src='/Asset 20.png' className="w-10 h-10 items-baseline"/> Quốc Lâm Tự - Xem Phim Sex Online Chất Lượng Cao</h1>
         <p className="text-base md:text-lg text-gray-300">
           Chào mừng bạn đến với <strong>Quốc Lâm Tự</strong> – nền tảng xem phim sex trực tuyến miễn phí với chất lượng cao,
           tốc độ tải nhanh và không quảng cáo gây phiền. Thưởng thức hàng nghìn bộ phim sex vietsub, không che, gái xinh,... và các tập phim đang hot hiện nay cập nhật mỗi ngày!
         </p>
-        <p className="text-lg text-gray-300">
-          Link web xem phim full HD hiện tại là:<h2 className="text-amber-300"><a href="https://quoclamtu.live" target="_blank" rel="noopener noreferrer">quoclamtu.live</a></h2> Quý khách hàng lưu lại thông tin tại:<h2 className="text-amber-300"><a href="/">quoclamtu.tv</a></h2> khi có thay đổi đường link sẽ thông báo ở web <span className="text-amber-300">quoclamtu.tv(đường link không bao giờ chị chặn của quốc lâm tự)</span>
-        </p>
+        <h2 className="text-lg text-gray-300">
+          Link web xem phim full HD hiện tại là:<p className="text-amber-300"><a href="https://quoclamtu.live" target="_blank" rel="noopener noreferrer">quoclamtu.live</a></p> Quý khách hàng lưu lại thông tin tại:<p className="text-amber-300"><a href="/">quoclamtu.tv</a></p> khi có thay đổi đường link sẽ thông báo ở web <span className="text-amber-300">quoclamtu.tv(đường link không bao giờ chị chặn của quốc lâm tự)</span>
+        </h2>
 
         <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 justify-center items-center">
           <a href="https://quoclamtu.live" target="_blank" rel="noopener noreferrer"> <button className="color-animate text-white font-semibold py-2 px-6 rounded-full shadow-lg hover:scale-105 transition">
